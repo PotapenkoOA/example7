@@ -19,8 +19,8 @@ jobs:
             - name: configure
               run: mkdir build; cd build; cmake ..; dir;
 
-#            - name: build tests
-#              run: make;
+            - name: build tests
+              run: cmake --build ./build -j10;
 
 #            - name: run tests
 #              run: mytest;
