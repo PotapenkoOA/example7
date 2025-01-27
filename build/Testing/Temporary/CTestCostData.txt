@@ -1,9 +1,0 @@
-myfunctions.add 2 0.0099234
-myfunctions.sub 2 0.00797285
-quadratic_equation.test1 2 0.195512
-quadratic_equation.test2 2 0.0078728
-quadratic_equation.test3 2 0.00909855
-quadratic_equation.test4 2 0.0071704
-quadratic_equation.test5 2 0.0076989
-quadratic_equation.test6 2 0.00716895
----
