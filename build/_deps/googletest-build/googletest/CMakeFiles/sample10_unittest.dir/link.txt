@@ -1,3 +1,0 @@
-"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\sample10_unittest.dir/objects.a
-C:\msys64\ucrt64\bin\ar.exe qc CMakeFiles\sample10_unittest.dir/objects.a @CMakeFiles\sample10_unittest.dir\objects1.rsp
-C:\msys64\ucrt64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\sample10_unittest.dir/objects.a -Wl,--no-whole-archive -o sample10_unittest.exe -Wl,--out-implib,libsample10_unittest.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\sample10_unittest.dir\linkLibs.rsp
