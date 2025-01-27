@@ -6,10 +6,6 @@ project(example7) #name of your project
 
 enable_testing() #to  discover tests in test explorer 
 
-add_subdirectory(googletest) # add googletest subdirectory
-
-#include_directories(googletest/include) # this is so we can #include <gtest/gtest.h>
-
 include(FetchContent)
 FetchContent_Declare(
   googletest
@@ -17,6 +13,10 @@ FetchContent_Declare(
   GIT_TAG        v1.14.0
 )
 FetchContent_MakeAvailable(googletest)
+
+#add_subdirectory(googletest) # add googletest subdirectory
+
+include_directories(googletest/include) # this is so we can #include <gtest/gtest.h>
 
 add_executable(mytests mytests.cpp) # add this executable
 
