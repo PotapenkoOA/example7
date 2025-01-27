@@ -57,13 +57,13 @@ TEST(quadratic_equation, test6)
     int n;
     double *result;
     
-  /*  ASSERT_THROW(solve(__builtin_inf(),2, 1, result, n), std::exception);  
+    ASSERT_THROW(solve(__builtin_inf(),2, 1, result, n), std::exception);  
     ASSERT_THROW(solve(1,__builtin_inf(), 1, result, n), std::exception); 
     ASSERT_THROW(solve(1,2, __builtin_inf(), result, n), std::exception); 
 
     ASSERT_THROW(solve(std::numeric_limits<double>::quiet_NaN(),2, 1, result, n), std::exception);  
     ASSERT_THROW(solve(1,std::numeric_limits<double>::quiet_NaN(), 1, result, n), std::exception); 
-    ASSERT_THROW(solve(1,2, std::numeric_limits<double>::quiet_NaN(), result, n), std::exception);   */
+    ASSERT_THROW(solve(1,2, std::numeric_limits<double>::quiet_NaN(), result, n), std::exception);   
 }
 
 
