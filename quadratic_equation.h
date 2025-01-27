@@ -23,7 +23,7 @@ double epsilon_calculation(double value)
 
 int solve(double a, double b, double c, double *&result, int &n)
 {
-    double d_epsilon = epsilon_calculation(1);
+    double d_epsilon = std::numeric_limits<double>::epsilon();
 
       //test 1
     if(a >= d_epsilon && a <= 1+d_epsilon && b >= -d_epsilon && b <= d_epsilon && c >= 1-d_epsilon && c <= 1+d_epsilon)

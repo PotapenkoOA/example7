@@ -1,7 +1,7 @@
 #include <gtest/gtest.h>
-#include "myfunctions.h"
+//#include "myfunctions.h"
 #include "quadratic_equation.h"
-#include "limits.h"
+//#include "limits.h"
 
 // test 1
 TEST(quadratic_equation, test1)

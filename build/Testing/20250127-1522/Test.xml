@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="(empty)"
+	BuildStamp="20250127-1522-Experimental"
+	Name="(empty)"
+	Generator="ctest-3.31.4"
+	CompilerName=""
+	CompilerVersion=""
+	OSName="Windows"
+	Hostname="DESKTOP-FJH5286"
+	OSRelease=" Professional"
+	OSVersion=" (Build 26100)"
+	OSPlatform="AMD64"
+	Is64Bits="1"
+	VendorString="GenuineIntel"
+	VendorID="Intel Corporation"
+	FamilyID="6"
+	ModelID="10"
+	ModelName=""
+	ProcessorCacheSize="-1"
+	NumberOfLogicalCPU="20"
+	NumberOfPhysicalCPU="14"
+	TotalVirtualMemory="37644"
+	TotalPhysicalMemory="32524"
+	LogicalProcessorsPerPhysical="1"
+	ProcessorClockFrequency="2688"
+	>
+	<Testing>
+		<StartDateTime>Jan 27 18:28 RTZ 2 ([NON-UTF-8-BYTE-0xE7][NON-UTF-8-BYTE-0xE8][NON-UTF-8-BYTE-0xEC][NON-UTF-8-BYTE-0xE0])</StartDateTime>
+		<StartTestTime>1737991700</StartTestTime>
+		<TestList>
+			<Test>./quadratic_equation.test6</Test>
+		</TestList>
+		<Test Status="passed">
+			<Name>quadratic_equation.test6</Name>
+			<Path>.</Path>
+			<FullName>./quadratic_equation.test6</FullName>
+			<FullCommandLine>C:\Projects\example7\build\mytests.exe "--gtest_filter=quadratic_equation.test6" "--gtest_also_run_disabled_tests"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.007196</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>C:\Projects\example7\build\mytests.exe "--gtest_filter=quadratic_equation.test6" "--gtest_also_run_disabled_tests"</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJyVkD8LwkAMxff7FBl16KGLg9BBUBwEFatTKXJqlINrotdUv75ni8U/KPqmQH5J3suUBfswZj44hCUWAnvrBD3EcCrNzhux2zWGUiyTlgD0VBo3ymBRElk6QBekmvac3+uitIJapVGjDMaON8bVfaSz9Uw5UmBRovL4Aj/ufHejUlisplAp++K2JmA2+UJBqwN50f7nfD0CwmJcW/2WUtD4aMcXev7hp9+BN6Sf74Q080GSjIa3zDWr1RWWV5BI====</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<EndDateTime>Jan 27 18:28 RTZ 2 ([NON-UTF-8-BYTE-0xE7][NON-UTF-8-BYTE-0xE8][NON-UTF-8-BYTE-0xEC][NON-UTF-8-BYTE-0xE0])</EndDateTime>
+		<EndTestTime>1737991700</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>

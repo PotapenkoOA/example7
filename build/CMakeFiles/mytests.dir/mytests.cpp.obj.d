@@ -235,7 +235,6 @@ CMakeFiles/mytests.dir/mytests.cpp.obj: C:\Projects\example7\mytests.cpp \
  C:/Projects/example7/googletest/googletest/include/gtest/gtest-typed-test.h \
  C:/Projects/example7/googletest/googletest/include/gtest/gtest_pred_impl.h \
  C:/Projects/example7/googletest/googletest/include/gtest/gtest_prod.h \
- C:\Projects\example7\myfunctions.h \
  C:\Projects\example7\quadratic_equation.h \
  C:/msys64/ucrt64/include/c++/14.2.0/cmath \
  C:/msys64/ucrt64/include/math.h \

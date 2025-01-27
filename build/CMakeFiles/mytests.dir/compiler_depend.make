@@ -262,7 +262,6 @@ CMakeFiles/mytests.dir/mytests.cpp.obj: C:/Projects/example7/mytests.cpp \
   C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/stddef.h \
   C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/stdint.h \
   C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/syslimits.h \
-  C:/Projects/example7/myfunctions.h \
   C:/Projects/example7/quadratic_equation.h
 
 
@@ -787,7 +786,5 @@ C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/mm_malloc.h:
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/stddef.h:
 
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/syslimits.h:
-
-C:/Projects/example7/myfunctions.h:
 
 C:/Projects/example7/quadratic_equation.h:

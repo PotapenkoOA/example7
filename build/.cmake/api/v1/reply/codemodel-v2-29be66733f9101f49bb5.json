@@ -1,0 +1,283 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "googletest",
+					"childIndexes" : 
+					[
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-googletest-Debug-294c64d4885f2a55f3f7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "googletest"
+				},
+				{
+					"build" : "googletest/googlemock",
+					"childIndexes" : 
+					[
+						3
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-googletest.googlemock-Debug-be7d9295c1709ebacb93.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 2,
+					"source" : "googletest/googlemock",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				},
+				{
+					"build" : "googletest/googletest",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-googletest.googletest-Debug-deb51f94c1c054bf4b82.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 3,
+					"source" : "googletest/googletest",
+					"targetIndexes" : 
+					[
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "example7",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						2
+					],
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "googletest-distribution",
+					"parentIndex" : 0
+				},
+				{
+					"childIndexes" : 
+					[
+						3
+					],
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "gmock",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "gtest",
+					"parentIndex" : 2,
+					"targetIndexes" : 
+					[
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 2,
+					"id" : "gmock::@d68da25237a7ca2351af",
+					"jsonFile" : "target-gmock-Debug-5ac613ed32734569291c.json",
+					"name" : "gmock",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "gmock_main::@d68da25237a7ca2351af",
+					"jsonFile" : "target-gmock_main-Debug-382bd1665770c3ba74b0.json",
+					"name" : "gmock_main",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "gtest::@f95b5c00bd49b3b4698d",
+					"jsonFile" : "target-gtest-Debug-f6bb4cadaf26830f477c.json",
+					"name" : "gtest",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "gtest_main::@f95b5c00bd49b3b4698d",
+					"jsonFile" : "target-gtest_main-Debug-5db863d2fd6f39776c41.json",
+					"name" : "gtest_main",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mytests::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mytests-Debug-a27d67743e542ce1a08b.json",
+					"name" : "mytests",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "sample10_unittest::@f95b5c00bd49b3b4698d",
+					"jsonFile" : "target-sample10_unittest-Debug-3928182a7c0f68787550.json",
+					"name" : "sample10_unittest",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "sample1_unittest::@f95b5c00bd49b3b4698d",
+					"jsonFile" : "target-sample1_unittest-Debug-8a4f7a8f7aa6319c3d7b.json",
+					"name" : "sample1_unittest",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "sample2_unittest::@f95b5c00bd49b3b4698d",
+					"jsonFile" : "target-sample2_unittest-Debug-8dad68c653dcc2b3d560.json",
+					"name" : "sample2_unittest",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "sample3_unittest::@f95b5c00bd49b3b4698d",
+					"jsonFile" : "target-sample3_unittest-Debug-87cfe9c40cbf135d1d23.json",
+					"name" : "sample3_unittest",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "sample4_unittest::@f95b5c00bd49b3b4698d",
+					"jsonFile" : "target-sample4_unittest-Debug-30d22d809c73516886f5.json",
+					"name" : "sample4_unittest",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "sample5_unittest::@f95b5c00bd49b3b4698d",
+					"jsonFile" : "target-sample5_unittest-Debug-acb353e05943a39016b2.json",
+					"name" : "sample5_unittest",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "sample6_unittest::@f95b5c00bd49b3b4698d",
+					"jsonFile" : "target-sample6_unittest-Debug-18ca910f63bf61eedb52.json",
+					"name" : "sample6_unittest",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "sample7_unittest::@f95b5c00bd49b3b4698d",
+					"jsonFile" : "target-sample7_unittest-Debug-d621fb1ded110d5cb26a.json",
+					"name" : "sample7_unittest",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "sample8_unittest::@f95b5c00bd49b3b4698d",
+					"jsonFile" : "target-sample8_unittest-Debug-c6b628b9695b3abec264.json",
+					"name" : "sample8_unittest",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "sample9_unittest::@f95b5c00bd49b3b4698d",
+					"jsonFile" : "target-sample9_unittest-Debug-4a7e5ddca09e161a8f8e.json",
+					"name" : "sample9_unittest",
+					"projectIndex" : 3
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Projects/example7/build",
+		"source" : "C:/Projects/example7"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}
