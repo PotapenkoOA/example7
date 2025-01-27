@@ -10,12 +10,9 @@ on:
 
 jobs:
     build:
-        runs-on: ubuntu-latest
+        runs-on: windows-latest
 
         steps:
-            - name: install gtest
-              run: sudo apt-get install -y libgtest-dev libgmock-dev 
-
             - name: checkout
               uses: actions/checkout@v4
             
