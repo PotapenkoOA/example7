@@ -20,7 +20,7 @@ jobs:
               run: mkdir build; cd build; cmake ..;
 
             - name: build tests
-              run: cd build; make;
+              run: make;
 
             - name: run tests
-              run: cd build; ./mytest;
+              run: mytest;
