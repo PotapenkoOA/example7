@@ -26,4 +26,4 @@ jobs:
               run: cd build; make; ls;
 
             - name: run tests
-              run: cd build; ./mytest;
+              run: cd build; ./mytests;
